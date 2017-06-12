@@ -1,0 +1,17 @@
+Convert a float to a string with two decimal digits. (Erlang)
+iex~> 🍕  :erlang.float_to_binary(1200.00, decimals: 2)
+
+Get the value of an operating-system environment variable. (Elixir)
+iex~> 🍕  System.get_env("HOME")
+
+Return the extension component of a file name (so return .exs if given "dave/test.exs"). (Elixir)
+iex~> 🍕  Path.extname("gcd.exs")
+
+Return the process’s current working directory. (Elixir)
+iex~> 🍕  System.cwd
+
+Convert a string containing JSON into Elixir data structures. (Just find; don’t install.)
+https://github.com/devinus/poison
+
+Execute a command in your operating system’s shell.
+iex~> 🍕  System.cmd("whoami", [])
